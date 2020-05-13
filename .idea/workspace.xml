@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a5b92ca-c8d7-4cab-9d33-cf3f37a8cdf5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="boardapp_boardmodel: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="boardproject4" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="b7a41b85-bd72-484f-b3bb-90667ac5a61a" />
+  <component name="ProjectId" id="1bDljhcD8PPxmdth3LD7VUJQera" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../boardproject3" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hiroi\boardproject4\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.runserver">
+    <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
+      <module name="boardproject4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\hiroi\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="makemigrations" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="migirate" type="PythonConfigurationType" factoryName="Python">
+      <module name="boardproject4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\hiroi\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="migrate" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="boardproject4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\hiroi\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="boardproject4" type="Python.DjangoServer" factoryName="Django server">
+      <module name="boardproject4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.boardproject4" />
+      <item itemvalue="Python.makemigrations" />
+      <item itemvalue="Python.migirate" />
+      <item itemvalue="Python.runserver" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a5b92ca-c8d7-4cab-9d33-cf3f37a8cdf5" name="Default Changelist" comment="" />
+      <created>1588174681830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588174681830</updated>
+      <workItem from="1588174684579" duration="754000" />
+      <workItem from="1588175486764" duration="992000" />
+      <workItem from="1588176526181" duration="963000" />
+      <workItem from="1588217837421" duration="1913000" />
+      <workItem from="1588222094095" duration="5532000" />
+      <workItem from="1588237044928" duration="10583000" />
+      <workItem from="1588252675572" duration="2500000" />
+      <workItem from="1588317871028" duration="8000" />
+      <workItem from="1588320806657" duration="629000" />
+      <workItem from="1588431886321" duration="3525000" />
+      <workItem from="1588506801460" duration="12172000" />
+      <workItem from="1588679649930" duration="8277000" />
+      <workItem from="1588732004851" duration="4694000" />
+      <workItem from="1588823683785" duration="624000" />
+      <workItem from="1588896999789" duration="1477000" />
+      <workItem from="1589078714160" duration="5861000" />
+      <workItem from="1589089951739" duration="1254000" />
+      <workItem from="1589091265348" duration="511000" />
+      <workItem from="1589091837415" duration="1537000" />
+      <workItem from="1589153397749" duration="10002000" />
+      <workItem from="1589289140902" duration="4138000" />
+      <workItem from="1589322192867" duration="2787000" />
+      <workItem from="1589335290060" duration="10576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="277" y="98" key="#Notifications" timestamp="1589338181187">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="98" key="#Notifications/0.0.1368.872@0.0.1368.872" timestamp="1589338181187" />
+    <state x="277" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589085420193">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="277" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1589085420193" />
+    <state x="457" y="246" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588252593780">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="457" y="246" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1368.872@0.0.1368.872" timestamp="1588252593780" />
+    <state x="415" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589203564832">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="415" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1589203564832" />
+    <state x="466" y="195" key="FileChooserDialogImpl" timestamp="1589339034716">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="466" y="195" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1589339034716" />
+    <state width="1326" height="212" key="GridCell.Tab.0.bottom" timestamp="1589335251098">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="212" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1589335251098" />
+    <state width="1326" height="212" key="GridCell.Tab.0.center" timestamp="1589335251097">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="212" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1589335251097" />
+    <state width="1326" height="212" key="GridCell.Tab.0.left" timestamp="1589335251097">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="212" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1589335251097" />
+    <state width="1326" height="212" key="GridCell.Tab.0.right" timestamp="1589335251098">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1326" height="212" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1589335251098" />
+    <state width="867" height="278" key="GridCell.Tab.1.bottom" timestamp="1588776255104">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="867" height="278" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1588776255104" />
+    <state width="867" height="278" key="GridCell.Tab.1.center" timestamp="1588776255104">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="867" height="278" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1588776255104" />
+    <state width="867" height="278" key="GridCell.Tab.1.left" timestamp="1588776255104">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="867" height="278" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1588776255104" />
+    <state width="867" height="278" key="GridCell.Tab.1.right" timestamp="1588776255104">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="867" height="278" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1588776255104" />
+    <state x="188" y="82" key="SettingsEditor" timestamp="1589339765109">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="188" y="82" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1589339765109" />
+    <state x="536" y="329" width="316" height="220" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1589178460534">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="536" y="329" width="316" height="220" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1368.872@0.0.1368.872" timestamp="1589178460534" />
+    <state x="265" y="94" key="com.intellij.database.dbimport.ImportDialog" timestamp="1588176446352">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="265" y="94" key="com.intellij.database.dbimport.ImportDialog/0.0.1368.872@0.0.1368.872" timestamp="1588176446352" />
+    <state x="484" y="269" width="398" height="308" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1588220015632">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="484" y="269" width="398" height="308" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1368.872@0.0.1368.872" timestamp="1588220015632" />
+    <state x="394" y="109" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1589292211756">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="394" y="109" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1368.872@0.0.1368.872" timestamp="1589292211756" />
+    <state x="392" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1589335427469">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="392" y="264" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1589335427469" />
+    <state x="709" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589339067536">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="709" y="413" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.872@0.0.1368.872" timestamp="1589339067536" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/boardproject4$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1589333750235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/boardproject4$makemigrations.coverage" NAME="makemigrations Coverage Results" MODIFIED="1589292312049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/boardproject4$runserver_.coverage" NAME="makemigrations Coverage Results" MODIFIED="1589085483046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/boardproject4$migirate.coverage" NAME="migirate Coverage Results" MODIFIED="1589292343299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

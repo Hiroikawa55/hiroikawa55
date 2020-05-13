@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block customcss %}
+{% endblock customcss %}
+
+{% block header %}
+<div class="alert alert-primary" role="alert">
+    <h4 class="alert-heading"><p>登録有形文化財 個別説明</p></h4>
+    <a href="{% url 'list' %}" class="btn btn-primary" role="button" role="button" aria-pressed="true">一覧に戻る</a>
+    <a href="{% url 'find' %}" class="btn btn-primary" role="button" role="button" aria-pressed="true">検索する</a>
+</div>
+{% endblock header %}
+
+{% block content %}
+<div class='container'>
+        <div class = 'row' style="padding:5px;">
+            <div class="rounded">
+                <h3><small class="text-muted">名称:</small>　{{object.name}}</h3>
+            </div>
+        </div>
+        <ul class="list-group" style="max-width: 1000px;">
+            <h5>
+                <li class="list-group-item list-group-item-light">構造: {{ object.structure }}</li>
+                <li class="list-group-item list-group-item-light">都道府県: {{ object.pref }}</li>
+                <li class="list-group-item list-group-item-light">市町村: {{ object.town }}</li>
+                <li class="list-group-item list-group-item-light">住所: {{ object.adress }}</li>
+                <li class="list-group-item list-group-item-light">屋根: {{ object.roof }}</li>
+                <li class="list-group-item list-group-item-light">西暦: {{ object.age }}</li>
+                <li class="list-group-item list-group-item-light">和暦: {{ object.age2 }}</li>
+                <li class="list-group-item list-group-item-light">種別: {{ object.type }}</li>
+                <li class="list-group-item list-group-item-light">分類: {{ object.type2 }}</li>
+                <li class="list-group-item list-group-item-light">基準: {{ object.standard }}</li>
+                <li class="list-group-item list-group-item-light">説明: {{ object.memo }}</li>
+                <li class="list-group-item list-group-item-light">備考: {{ object.others }}</li>
+                <li class="list-group-item list-group-item-light">設計者: {{ object.architect }}</li>
+                <li class="list-group-item list-group-item-light">登録日: {{ object.data}}</li>
+                <li class="list-group-item list-group-item-light">編集者: {{ object.editer }}</li>
+            </h5>
+        </ul>
+        <a href="{% url 'edit' object.pk %}" class="btn btn-secondary" role="button" aria-pressed="true">編集する</a>
+    </div>
+</div>
+{% endblock content %}

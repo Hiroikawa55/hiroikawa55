@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+
+{% block customcss %}
+{% endblock customcss %}
+
+{% block header %}
+<div class="alert alert-secondary" role="alert">
+    <h4 class="alert-heading"><p>登録有形文化財 一覧</p></h4>
+<a href="{% url 'find' %}" class="btn btn-primary" role="button" role="button" aria-pressed="true">説明から検索</a>
+</div>
+{% endblock header %}
+
+{% block content %}
+<div class='container'>
+<h4>名称一覧</h4>
+    <div class="border border-secondary" style="padding:30px;">
+        <div class = 'row'>
+        {% for item in object_list %}
+        <div class="col-sm-6">
+            <div class="card" style="max-width: 540px">
+                    <!--<img src="media/IMG_8564.jpg" alt="img" class="img-top">-->
+                    <div class="card-body">
+                        <h5 class="card-title"><small class="text-muted">件名: </small><a href="{% url 'detail' item.pk %}">{{item.name}}</a></h5>
+                        <ul class="list-group list-group-flush">
+                            <p>構造: {{ item.structure }}</p>
+                            <p>建設年代: {{item.age}}</p>
+                            <p>基準: {{ item.standard }}</p>
+                            <p>説明: {{ item.memo|truncatechars:200 }} <a href="{% url 'detail' item.pk %}">&gt;</a></p>
+                            <p>備考: {{ item.others }} </p>
+                            <a class="btn btn-outline-secondary" href="{% url 'edit' item.pk %}" role="button" aria-pressed="true">編集する</a>
+                            <a>　　　</a>
+                            <a href="{% url 'detail' item.pk %}" class="btn btn-secondary" role="button" aria-pressed="false">詳細</a>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<footer class="py-4" bg-dark text-light>
+{#<!-- {% if is_pagenated %}#}
+{#<ul class="pagination">#}
+{#    {% if object_list.has_previous %}#}
+{#    <il class="page-item">#}
+{#        <a class="page-link" href="?page={{ page_obj.previous_page_number }}">#}
+{#            <span aria-hidden="true">&laquo;</span>#}
+{#        </a>#}
+{#    </il>#}
+{#    {% endif %}#}
+{#    {% for page_num in page_obj.paginator.page_range %}#}
+{#    {% if page_obj.number == page_num %}#}
+{#<il class="page-item active">#}
+{#    <a class="page-link" href="#">{{ page_num }}</a></il>#}
+{#    {% else %}#}
+{#        <li class="page-item"><a class="page-link" href="?page={{ page_num }}">{{ page_num }}</a></li>#}
+{#    {% endif %}#}
+{#    {% endfor %}#}
+{#    {% if page_obj.has_next %}#}
+{#        <il class="page-item">#}
+{#            <a class="page-link" href="?page={{ page_obj.next_page_number }}">#}
+{#                <span aria-hidden="true">&raquo;</span>#}
+{#            </a>#}
+{#        </il>#}
+{#    {% endif %}#}
+{#</ul>#}
+{#{% endif %}-->#}
+<div class="container text-center"
+    <div class="pageination">
+        {% if object_list.has_previous %}
+            <a href="{% url 'list' %}">&laquo;first</a>
+            <a href="{% url 'list' %}{{object_list.previous_page_number}}">&laquo;prev</a>
+        {% endif %}
+        <span class="current">
+            [{{ object_list.number }}//{{object_list.paginator.num_pages}}
+        </span>
+        {% if object_list.has_next %}
+            <a href="{% url 'list' %}{{object_list.next_page_number}}">next&raquo;</a>
+            <a href="{% url 'list' %}{{data.paginator.num_pages}}">last&raquo;</a>
+        {% endif %}
+    </div>
+</footer>
+    <div>
+        <a href="{% url 'logout' %}">ログアウト</a>
+    </div>
+{% endblock content %}

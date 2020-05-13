@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block customcss %}
+{% endblock customcss %}
+
+{% load static %}
+
+{% block content %}
+<body>
+<div class="alert alert-primary" role="alert">
+    <h4 class="alert-heading">
+    <p>{{ title }}</p></h4>
+        <form action="{% url 'find' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <tr><td><input type="submit" value="本文を検索"class="btn btn-primary" role="button" role="button" aria-pressed="true"></td></tr>
+        </form>
+        <a href="{% url 'list' %}" class="btn btn-primary" role="button" role="button" aria-pressed="true">一覧に戻る</a>
+        <a href="{% url 'others' %}" class="btn btn-info" role="button" role="button" aria-pressed="true">備考を検索</a>
+</div>
+<div class='container'>
+    {% for b in object_list %}
+    <ul class="list-group">
+        <li class="list-group-item">
+        {% load item_extras %}
+            <h5><small class="text-muted">名称：</small><a href="{% url 'detail' b.pk %}">{{b.name}}</a></h5>
+        <!--<h6>○{{ b.memo|filter_age2:c_form }}</h6>-->
+        <h6>説明：{{ b.memo }}</h6>
+        <h6>備考：{{ b.others }}</h6>
+        </li>
+    </ul>
+    {% endfor %}
+</div>
+</div>
+<div class='container'>
+    {% for b in object_list2 %}
+    <ul class="list-group">
+        <li class="list-group-item">
+        {% load item_extras %}
+            <h5><small class="text-muted">名称：</small><a href="{% url 'detail' b.pk %}">{{b.name}}</a></h5>
+        <h6>備考：{{ b.others }}</h6>
+        </li>
+    </ul>
+    {% endfor %}
+</div>
+<footer class="py-4" bg-dark text-light>
+<div class="container text-center"
+    <div class="pageination">
+        {% if object_list.has_previous %}
+            <a href="{% url 'find' %}">&laquo;first</a>
+            <a href="{% url 'find' %}{{object_list.previous_page_number}}">&laquo;prev</a>
+        {% endif %}
+        <span class="current">
+            [{{ object_list.number }}//{{object_list.paginator.num_pages}}
+        </span>
+        {% if object_list.has_next %}
+            <a href="{% url 'find' %}{{object_list.next_page_number}}">next&raquo;</a>
+            <a href="{% url 'find' %}{{data.paginator.num_pages}}">last&raquo;</a>
+        {% endif %}
+    </div>
+</footer>
+</body>
+</html>
+{% endblock content %}

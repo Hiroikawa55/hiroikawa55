@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block customcss %}
+{% endblock customcss %}
+
+{% block header %}
+<div class="alert alert-primary" role="alert">
+    <h4 class="alert-heading"><p>登録有形文化財 個別説明</p></h4>
+<a href="{% url 'list' %}" class="btn btn-primary" role="button" role="button" aria-pressed="true">一覧に戻る</a>
+</div>
+{% endblock header %}
+
+{% block content %}
+<div class="form-group">
+    <div class="alert alert-success" role="alert">
+        {% if user.is_authenticated %}
+            <form method='POST'>{% csrf_token %}
+                <a>{{ form.as_p }}</a>
+                <input type='submit' value='更新する'>
+            </form>
+        {% else %}
+            <a>ログインしてください。</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock content %}
